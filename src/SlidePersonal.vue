@@ -78,7 +78,7 @@
                   </a>
                 </li>
               </ul>
-              <p>Que us sembla el nou slide responsive de marca personal? <code class="font-bold">Follow me</code> si voleu aprendre a fer aquest tipus de dissenys i altres amb tailwindCSS</p>
+              <p>Què us sembla el nou slide responsive de marca personal? <code class="font-bold">Follow me</code> si voleu aprendre a fer aquest tipus de dissenys i altres amb tailwindCSS</p>
             </div>
             <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
               <p>Vols esponsoritzar els meus continguts?</p>
