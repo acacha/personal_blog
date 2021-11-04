@@ -17,7 +17,8 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:acacha/acacha.github.io.git master
+git remote add origin git@github.com:acacha/acacha.github.io.git
+git push -f origin master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
