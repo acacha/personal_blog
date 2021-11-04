@@ -1,15 +1,15 @@
 <template>
-  <button @click="share" type="button" class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-    Share
+  <button @click="shareCanvas" type="button" class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+    Share Canvas
   </button>
 
-  <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+  <div ref="slide" class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
     <div class="relative py-3 sm:max-w-xl sm:mx-auto">
       <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
       <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
         <div class="max-w-md mx-auto">
           <div>
-            <img src="/img/logo.svg" class="h-7 sm:h-8" />
+            <img src="/img/logo.svg"/>
           </div>
           <div class="divide-y divide-gray-200">
             <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
@@ -62,12 +62,29 @@
 </template>
 
 <script>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import html2canvas from 'html2canvas';
 
 export default {
   methods: {
+    async shareCanvas() {
+      const canvasElement = await html2canvas(this.$refs.slide);
+      const dataUrl = canvasElement.toDataURL();
+      const blob = await (await fetch(dataUrl)).blob();
+      const filesArray = [
+        new File(
+            [blob],
+            'animation.png',
+            {
+              type: blob.type,
+              lastModified: new Date().getTime()
+            }
+        )
+      ];
+      const shareData = {
+        files: filesArray,
+      };
+      navigator.share(shareData);
+    },
     async share() {
       const shareData = {
         title: 'MDN',
