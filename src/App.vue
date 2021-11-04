@@ -129,9 +129,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Partners
           </a>
-          <a href="/instagram.html" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Instagram
-          </a>
+
+          <router-link to="/instagram" class="text-base font-medium text-gray-500 hover:text-gray-900">Instagram</router-link>
+
         </nav>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
@@ -253,6 +253,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
   <main>
     <!-- Hero section -->
+
+<!--    <router-view></router-view>-->
 
     <div class="lg:relative">
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
