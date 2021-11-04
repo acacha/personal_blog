@@ -8,7 +8,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                instagram: resolve(__dirname, 'instagram.html')
+                instagram: resolve(__dirname, 'instagram.html'),
+                personal: resolve(__dirname, 'personal.html')
             }
         }
     }
