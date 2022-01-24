@@ -6,4 +6,4 @@ Este és el codi font amb Vite, que genera un estàtic site que podem penjar per
 
 # Github pages 
 
--https://github.com/acacha/acacha.github.io
+- https://github.com/acacha/acacha.github.io
