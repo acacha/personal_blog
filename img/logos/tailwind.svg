@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="layer"
+   x="0px"
+   y="0px"
+   viewBox="0 0 600 74.300003"
+   xml:space="preserve"
+   sodipodi:docname="tailwind.svg"
+   width="600"
+   height="74.300003"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata4603"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs4601" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
+   id="namedview4599"
+   showgrid="false"
+   inkscape:zoom="0.36196319"
+   inkscape:cx="304"
+   inkscape:cy="32.3"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer" />
+<style
+   type="text/css"
+   id="style4592">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#06B6D4;}
+</style>
+<path
+   class="st0"
+   d="m 186,31.3 h -10.8 v 20.9 c 0,5.6 3.7,5.5 10.8,5.2 v 8.5 C 171.5,67.6 165.8,63.6 165.8,52.3 V 31.4 h -8 v -9.1 h 8 V 10.6 l 9.4,-2.8 V 22.3 H 186 Z m 41.2,-9.1 h 9.4 v 43.6 h -9.4 v -6.3 c -3.3,4.6 -8.5,7.4 -15.3,7.4 -11.9,0 -21.7,-10 -21.7,-22.9 0,-13 9.9,-22.9 21.7,-22.9 6.8,0 12,2.8 15.3,7.3 z M 213.4,58 c 7.9,0 13.8,-5.8 13.8,-14 0,-8.1 -5.9,-14 -13.8,-14 -7.8,0 -13.8,5.8 -13.8,14 0,8.2 6,14 13.8,14 z m 38.9,-42.3 c -3.3,0 -6,-2.8 -6,-6 0,-3.3 2.7,-6 6,-6 3.3,0 6,2.7 6,6 0.1,3.2 -2.7,6 -6,6 z m -4.7,50.1 V 22.2 h 9.4 v 43.6 z m 20.3,0 V 2.1 h 9.4 v 63.7 z m 70.6,-43.6 h 9.9 l -13.7,43.6 h -9.2 l -9.1,-29.4 -9.2,29.4 H 298 L 284.3,22.2 h 9.9 l 8.5,30.1 9.2,-30.1 h 9 l 9.1,30.1 z m 21.7,-6.5 c -3.3,0 -6,-2.8 -6,-6 0,-3.3 2.7,-6 6,-6 3.3,0 6,2.7 6,6 0,3.2 -2.7,6 -6,6 z m -4.8,50.1 V 22.2 h 9.4 v 43.6 z m 43.3,-44.7 c 9.8,0 16.8,6.6 16.8,18 v 26.8 h -9.4 V 40 c 0,-6.6 -3.8,-10.1 -9.8,-10.1 -6.2,0 -11.1,3.7 -11.1,12.6 v 23.4 h -9.4 V 22.3 h 9.4 v 5.6 c 2.9,-4.6 7.6,-6.8 13.5,-6.8 z M 460.1,4.8 h 9.4 v 61.1 h -9.4 v -6.3 c -3.3,4.6 -8.5,7.4 -15.3,7.4 -11.9,0 -21.7,-10 -21.7,-22.9 0,-13 9.9,-22.9 21.7,-22.9 6.8,0 12,2.8 15.3,7.3 z M 446.4,58 c 7.9,0 13.8,-5.8 13.8,-14 0,-8.1 -5.9,-14 -13.8,-14 -7.8,0 -13.8,5.8 -13.8,14 0,8.2 5.9,14 13.8,14 z m 54.7,9 c -13.2,0 -23,-10 -23,-22.9 0,-13 9.9,-22.9 23,-22.9 8.6,0 16,4.4 19.5,11.3 l -8.1,4.7 c -1.9,-4.1 -6.2,-6.7 -11.4,-6.7 -7.7,0 -13.5,5.8 -13.5,13.7 0,7.9 5.8,13.7 13.5,13.7 5.2,0 9.5,-2.7 11.6,-6.7 l 8.1,4.6 C 517.1,62.5 509.7,67 501.1,67 Z m 35.2,-32.7 c 0,7.9 23.5,3.1 23.5,19.3 0,8.7 -7.6,13.4 -17,13.4 -8.7,0 -15,-3.9 -17.8,-10.2 l 8.1,-4.7 c 1.4,3.9 4.9,6.3 9.7,6.3 4.2,0 7.4,-1.4 7.4,-4.9 0,-7.8 -23.5,-3.4 -23.5,-19 0,-8.2 7.1,-13.3 16,-13.3 7.2,0 13.1,3.3 16.1,9.1 l -7.9,4.4 c -1.6,-3.4 -4.6,-5 -8.2,-5 -3.4,-0.1 -6.4,1.4 -6.4,4.6 z m 40.2,0 c 0,7.9 23.5,3.1 23.5,19.3 0,8.7 -7.6,13.4 -17,13.4 -8.7,0 -15,-3.9 -17.8,-10.2 l 8.1,-4.7 c 1.4,3.9 4.9,6.3 9.7,6.3 4.2,0 7.4,-1.4 7.4,-4.9 0,-7.8 -23.5,-3.4 -23.5,-19 0,-8.2 7.1,-13.3 16,-13.3 7.2,0 13.1,3.3 16.1,9.1 l -7.9,4.4 c -1.6,-3.4 -4.6,-5 -8.2,-5 -3.4,-0.1 -6.4,1.4 -6.4,4.6 z m 0,0"
+   id="path4594"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill-rule:evenodd" />
+<path
+   class="st1"
+   d="M 62,0 C 45.5,0 35.1,8.3 31,24.8 c 6.2,-8.3 13.4,-11.4 21.7,-9.3 4.7,1.2 8.1,4.6 11.8,8.4 6.1,6.2 13.1,13.3 28.5,13.3 16.5,0 26.9,-8.3 31,-24.8 -6.2,8.3 -13.4,11.4 -21.7,9.3 C 97.6,20.5 94.2,17.1 90.5,13.3 84.4,7.1 77.4,0 62,0 Z M 31,37.1 C 14.5,37.1 4.1,45.4 0,61.9 6.2,53.6 13.4,50.5 21.7,52.6 26.4,53.8 29.8,57.2 33.5,61 39.6,67.2 46.6,74.3 62,74.3 78.5,74.3 88.9,66 93,49.5 86.8,57.8 79.6,60.9 71.3,58.8 66.6,57.6 63.2,54.2 59.5,50.4 53.4,44.3 46.4,37.1 31,37.1 Z m 0,0"
+   id="path4596"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#06b6d4;fill-rule:evenodd" />
+</svg>

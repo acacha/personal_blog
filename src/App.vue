@@ -10,8 +10,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
-            <span class="sr-only">Workflow</span>
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg" alt="">
+            <span class="sr-only">Acacha_dev</span>
+            <img class="h-8 w-auto sm:h-10" src="/img/acacha_dev_logo.svg" alt="Acacha_dev logo">
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -26,17 +26,17 @@ import HelloWorld from './components/HelloWorld.vue'
         <nav class="hidden md:flex space-x-10">
           <div class="relative">
             <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-            <button type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
-              <span>Solutions</span>
+            <a href="#xarxes_socials" type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900" aria-expanded="false">
+              <span>Xarxes socials</span>
               <!--
                 Heroicon name: solid/chevron-down
 
                 Item active: "text-gray-600", Item inactive: "text-gray-400"
               -->
-              <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </button>
+<!--              <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">-->
+<!--                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />-->
+<!--              </svg>-->
+            </a>
 
             <!--
               'Solutions' flyout menu, show/hide based on flyout menu state.
@@ -123,23 +123,29 @@ import HelloWorld from './components/HelloWorld.vue'
             <!--                  </div>-->
           </div>
 
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Pricing
+          <a href="#portfolio" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Portfolio
           </a>
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Partners
+          <a href="https://acacha.org" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Acacha wiki
+          </a>
+          <a href="https://medium.com/@sergiturbadenas" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Blog
+          </a>
+          <a href="https://instagram.com/acacha_worlds" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Acacha Worlds
           </a>
 
-          <router-link to="/instagram" class="text-base font-medium text-gray-500 hover:text-gray-900">Instagram</router-link>
+<!--          <router-link to="/instagram" class="text-base font-medium text-gray-500 hover:text-gray-900">Instagram</router-link>-->
 
         </nav>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-          <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-            Sign in
-          </a>
-          <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700">
-            Sign up
-          </a>
+<!--          <a href="https://acacha.org" target="_blank" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">-->
+<!--            Wiki-->
+<!--          </a>-->
+<!--          <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700">-->
+<!--            Sign up-->
+<!--          </a>-->
         </div>
       </div>
 
@@ -153,12 +159,12 @@ import HelloWorld from './components/HelloWorld.vue'
           From: "opacity-100 scale-100"
           To: "opacity-0 scale-95"
       -->
-      <div class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+      <div class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right hidden">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <div>
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg" alt="Workflow">
+                <img class="h-8 w-auto" src="/img/acacha_dev_logo.svg" alt="Workflow">
               </div>
               <div class="-mr-2">
                 <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -234,17 +240,17 @@ import HelloWorld from './components/HelloWorld.vue'
                 Company
               </a>
             </div>
-            <div class="mt-6">
-              <a href="#" class="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700">
-                Sign up
-              </a>
-              <p class="mt-6 text-center text-base font-medium text-gray-500">
-                Existing customer?
-                <a href="#" class="text-gray-900">
-                  Sign in
-                </a>
-              </p>
-            </div>
+<!--            <div class="mt-6">-->
+<!--              <a href="#" class="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700">-->
+<!--                Sign up-->
+<!--              </a>-->
+<!--              <p class="mt-6 text-center text-base font-medium text-gray-500">-->
+<!--                Existing customer?-->
+<!--                <a href="#" class="text-gray-900">-->
+<!--                  Sign in-->
+<!--                </a>-->
+<!--              </p>-->
+<!--            </div>-->
           </div>
         </div>
       </div>
@@ -252,19 +258,17 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <main>
-    <!-- Hero section -->
-
 <!--    <router-view></router-view>-->
-
+    <!-- Hero section -->
     <div class="lg:relative">
-      <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+      <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-32 lg:text-left">
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-            <span class="block xl:inline">I'm</span><br/>
-            <span class="block text-indigo-600 xl:inline">Sergi Tur Badenas HEY!</span>
+            <span class="block xl:inline">Sergi Tur Badenas</span><br/>
+            <span class="block text-indigo-600 xl:inline">acacha_dev</span>
           </h1>
           <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-            Developer and teacher Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aspernatur consectetur cum earum eligendi fugit iure, mollitia, nobis non odio praesentium quasi quisquam recusandae rem tempore vel velit voluptatem.
+            M'apassiona aprendre coses i ensenyar-les als altres
           </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
@@ -277,7 +281,7 @@ import HelloWorld from './components/HelloWorld.vue'
             </div>
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
               <a href="https://youtube.acacha.org" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
-                Canal de Youtube
+                <img class="h-7 w-8 mr-3" src="/img/logos/youtube_play.svg" alt="Canal Youtube acacha_dev">Canal de Youtube
               </a>
             </div>
           </div>
@@ -288,34 +292,47 @@ import HelloWorld from './components/HelloWorld.vue'
       </div>
     </div>
 
-    <!-- Logo Cloud -->
-    <div class="bg-gray-100 mt-4">
-      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-          Trusted by over 5 very average small businesses
+
+
+    <!-- Logo Cloud xarxes socials -->
+    <div class="bg-gray-200 mt-4">
+      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <p class="text-center text-md font-bold uppercase text-gray-800 tracking-wide">
+          Ens seguim?
         </p>
-        <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-          <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
-          </div>
-          <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
-          </div>
-          <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
-          </div>
-          <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-            <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor">
-          </div>
-          <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-            <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
-          </div>
+        <div class="mt-8 grid grid-cols-2 gap-8 lg:grid-cols-8">
+          <a href="https://youtube.acacha.org" target="_blank" class="flex justify-center md:col-span-2 lg:col-span-1">
+            <img class="h-12" src="/img/logos/youtube_play.svg" alt="Canal de youtube">
+            <span></span>
+          </a>
+          <a href="https://www.instagram.com/acacha_dev" target="_blank" class="flex justify-center md:col-span-2 lg:col-span-1">
+            <img class="h-12" src="/img/logos/instagram.svg" alt="Acacha_dev Instagram">
+          </a>
+          <a href="https://twitter.com/badenastur" target="_blank" class="flex justify-center md:col-span-2 lg:col-span-1">
+            <img class="h-12" src="/img/logos/twitter.svg" alt="Tur Badenas Twitter">
+
+          </a>
+          <a href="https://github.com/acacha/" target="_blank" class="flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+            <img class="h-12" src="/img/logos/github.svg" alt="Github">
+          </a>
+          <a href="https://www.facebook.com/sergiturbadenas/" target="_blank" class="flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+            <img class="h-12" src="/img/logos/facebook.svg" alt="Facebook">
+          </a>
+          <a href="https://www.buymeacoffee.com/acacha" target="_blank" class="flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+            <img class="h-12" src="/img/logos/buy_me_a_coffe.svg" alt="Buy me a Coffe">
+          </a>
+          <a href="https://medium.com/@sergiturbadenas" target="_blank" class="flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+            <img class="h-14 md:h-12" src="/img/logos/medium.svg" alt="Medium">
+          </a>
+          <a href="https://instagram.com/acacha_worlds" target="_blank" class="flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+            <img class="h-20 md:h-12" src="/img/logos/acacha_worlds.svg" alt="Acacha_worlds">
+          </a>
         </div>
       </div>
     </div>
 
-    <!-- Alternating Feature Sections -->
-    <div class="relative pt-16 pb-32 overflow-hidden">
+    <!-- Alternating Xarxes socials -->
+    <div id="xarxes_socials" class="relative pt-12 pb-32 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
       <div class="relative">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
@@ -324,21 +341,22 @@ import HelloWorld from './components/HelloWorld.vue'
               <div>
                 <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
                   <!-- Heroicon name: outline/inbox -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
                   </svg>
                 </span>
               </div>
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Stay on top of customer support
+                  Segueix-me! Dona'm suport!
                 </h2>
                 <p class="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  Us aseguro que les vostres contribucions són <span class="font-bold">MOLT</span> benvingudes!  Cada dia realitzo noves aportacions a la comunitat ja sigui en forma de tutorials,
+                  cursos, screencasts, entrades a xarxes socials/blogs... Ajuder-me a difondre la meva tasca
                 </p>
                 <div class="mt-6">
-                  <a href="#" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-                    Get started
+                  <a href="/personal.html" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
+                    Més info
                   </a>
                 </div>
               </div>
@@ -347,7 +365,7 @@ import HelloWorld from './components/HelloWorld.vue'
               <blockquote>
                 <div>
                   <p class="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                    &ldquo;TODO un testimoni&rdquo;
                   </p>
                 </div>
                 <footer class="mt-3">
@@ -364,34 +382,82 @@ import HelloWorld from './components/HelloWorld.vue'
             </div>
           </div>
           <div class="mt-12 sm:mt-16 lg:mt-0">
-            <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">
+            <div class="flex content-center w-64 pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/img/personal_card.png" alt="Xarxes socials">
             </div>
           </div>
         </div>
       </div>
-      <div class="mt-24">
+      <div class="bg-gray-100 mt-4">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+            Us puc assesorar en els següents àmbits
+          </p>
+          <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/laravel.svg" alt="Laravel">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/vue.svg" alt="VueJS">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/ionic.svg" alt="Ionic">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/ubuntu.svg" alt="Ubuntu">
+            </div>
+            <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <img class="h-12" src="/img/logos/tailwind.svg" alt="Tailwind CSS">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/livewire.svg" alt="Laravel Livewire">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/android.svg" alt="Android">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/vuetify.svg" alt="Vuetify">
+            </div>
+            <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <img class="h-12" src="/img/logos/linux.svg" alt="Linux">
+            </div>
+            <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <img class="h-12" src="/img/logos/nuxtjs.svg" alt="NuxtJS">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-24" id="portfolio">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div>
                 <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                  <!-- Heroicon name: outline/sparkles -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                  <svg xmlns="http://www.w3.org/2000/svg"  class="h-6 w-6 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                   </svg>
                 </span>
               </div>
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Better understand your customers
+                  Aplicacions gestió educativa
                 </h2>
                 <p class="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  Porto treballant en l'àmbit de l'educació des del anys 90, treballant com a tècnic informàtic a la Universitat Politècnica de Catalunya. Actualment treballo
+                  com a professor de cicles d'informàtica a l'<a href="https://www.iesebre.com" target="_blank">Institut de l'Ebre</a> on durant molts anys he estat del Coordinador
+                  d'Informàtica. Durant aquesta anys he creat aplicacions de gestió acadèmica com <span class="font-bold">Scool</span> (o la seva predecessora <span class="font-bold">ebre-escool</span>), aplicació realitzada amb Laravel i el framework CSS <span class="font-bold">Vuetify</span>.
+                </p>
+                <p class="mt-4 text-lg text-gray-500">
+                  Scool és una eina multitenant (múltiples escoles), amb connexió a l'API de Google per gestionar usuaris Google Apps for Education, Incidències, connexió amb Ldap/Samba, Moodle...
+                </p>
+                <p class="mt-4 text-lg text-gray-500">
+                  Podeu obtenir el codi <span class="font-bold">sponsoritzant-me!</span>
                 </p>
                 <div class="mt-6">
-                  <a href="#" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-                    Get started
+                  <a href="https://github.com/sponsors/acacha" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
+                    Sponsor Me
                   </a>
                 </div>
               </div>
@@ -399,217 +465,173 @@ import HelloWorld from './components/HelloWorld.vue'
           </div>
           <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
             <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface">
+              <img class="w-full rounded-xl object-cover shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                   src="/img/scool_ui.jpg" alt="Scool UI">
             </div>
           </div>
         </div>
       </div>
     </div>
+
 
     <!-- Gradient Feature Section -->
     <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
       <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
         <h2 class="text-3xl font-extrabold text-white tracking-tight">
-          Inbox support built for efficiency
+          Et puc ajudar en...
         </h2>
         <p class="mt-4 max-w-3xl text-lg text-purple-200">
-          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.
+          Al canal de Youtube <a href="https://youtube.acacha.org" target="_blank" class="underline">https://youtube.acacha.org</a> podeu trobar continguts sobre:
         </p>
-        <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-          <div>
-            <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/inbox -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                </svg>
-              </span>
-            </div>
-            <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Unlimited Inboxes</h3>
-              <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-              </p>
-            </div>
-          </div>
+        <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
 
-          <div>
+          <a href="https://tubeme.acacha.org/php" target="_blank">
             <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/users -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
+              <span class="flex items-center justify-center h-36 w-36 rounded-md bg-white bg-opacity-10">
+                <img src="/img/youtube/php.png" alt="PHP per a desenvolupadors Laravel">
               </span>
             </div>
             <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Manage Team Members</h3>
+              <h3 class="text-lg font-medium text-white">PHP per a Laravel devs</h3>
               <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                Aquesta no és la típica introducció a PHP amb continguts aborrits sobre bucles, variables, funcions.
+                Amb aquest curs anem a barraca i aprenem el imprescindible de PHP per tal de treballar amb Laravel
               </p>
             </div>
-          </div>
+          </a>
 
-          <div>
+          <a href="https://tubeme.acacha.org/tdd" target="_blank">
             <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/trash -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                </svg>
+              <span class="flex items-center justify-center h-36 w-36 rounded-md bg-white bg-opacity-10">
+                <img src="/img/youtube/laravel_tdd.png" alt="Laravel TDD">
               </span>
             </div>
             <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Spam Report</h3>
+              <h3 class="text-lg font-medium text-white">Laravel TDD</h3>
               <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                Crearem una aplicació des de zero utilitzant Test Driven Development amb Laravel. Crear el teu propi Youtube de videos educatius.
               </p>
             </div>
-          </div>
+          </a>
 
-          <div>
+          <a href="https://tubeme.acacha.org/url" target="_blank">
             <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/pencil-alt -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                </svg>
+              <span class="flex items-center justify-center h-36 w-36 rounded-md bg-white bg-opacity-10">
+                <img src="/img/youtube/HTTP.png" alt="Protocol HTTP">
               </span>
             </div>
             <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Compose in Markdown</h3>
+              <h3 class="text-lg font-medium text-white">Protocol HTTP</h3>
               <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                Tot el que has de saber sobre el protocol HTTP com a programador. Clients HTTP, APIs REST, URLs. T'ensenyo tots els trucs que conec per dominar el protocol HTTP.
               </p>
             </div>
-          </div>
+          </a>
 
-          <div>
+          <a href="https://tubeme.acacha.org/url" target="_blank">
             <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/document-report -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
+              <span class="flex items-center justify-center h-36 w-36 rounded-md bg-white bg-opacity-10">
+                <img src="/img/youtube/URL.png" alt="URL">
               </span>
             </div>
             <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Team Reporting</h3>
+              <h3 class="text-lg font-medium text-white">Què és una URL?</h3>
               <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                Es molt important per al desenvolupament d'aplicacions Full Stack dominar tant el protocol HTTP com el concepte de URL. Tots els detalls en aquest vídeo
               </p>
             </div>
-          </div>
+          </a>
 
-          <div>
+          <a href="https://tubeme.acacha.org/android" target="_blank">
             <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/reply -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-                </svg>
+              <span class="flex items-center justify-center h-36 w-36 rounded-md bg-white bg-opacity-10">
+                <img src="/img/youtube/android.png" alt="Android">
               </span>
             </div>
             <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Saved Replies</h3>
+              <h3 class="text-lg font-medium text-white">Android. Lluitador del temps</h3>
               <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                Crear un joc bàsic tipus comptador amb Android i el llenguatge de programació Kotlin.
               </p>
             </div>
-          </div>
+          </a>
 
-          <div>
+          <a href="https://tubeme.acacha.org/ionic" target="_blank">
             <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/chat-alt -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                </svg>
+              <span class="flex items-center justify-center h-36 w-36 rounded-md bg-white bg-opacity-10">
+                <img src="/img/youtube/ionic.png" alt="Ionic">
               </span>
             </div>
             <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Email Commenting</h3>
+              <h3 class="text-lg font-medium text-white">Introducció a Ionic?</h3>
               <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                Com fer una aplicació multiplataforma web i Android amb Ionic. Crearem un comptador bàsic.
               </p>
             </div>
-          </div>
-
-          <div>
-            <div>
-              <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                <!-- Heroicon name: outline/heart -->
-                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg>
-              </span>
-            </div>
-            <div class="mt-6">
-              <h3 class="text-lg font-medium text-white">Connect with Customers</h3>
-              <p class="mt-2 text-base text-purple-200">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
 
     <!-- Stats section -->
-    <div class="relative bg-gray-900">
-      <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
-        <div class="h-full w-full xl:grid xl:grid-cols-2">
-          <div class="h-full xl:relative xl:col-start-2">
-            <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops">
-            <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
-          </div>
-        </div>
-      </div>
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-        <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 class="text-sm font-semibold tracking-wide uppercase">
-            <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
-          </h2>
-          <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>
-          <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
-          <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-            <p>
-              <span class="block text-2xl font-bold text-white">8K+</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.</span>
-            </p>
+<!--    <div class="relative bg-gray-900">-->
+<!--      <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">-->
+<!--        <div class="h-full w-full xl:grid xl:grid-cols-2">-->
+<!--          <div class="h-full xl:relative xl:col-start-2">-->
+<!--            <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops">-->
+<!--            <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">-->
+<!--        <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">-->
+<!--          <h2 class="text-sm font-semibold tracking-wide uppercase">-->
+<!--            <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>-->
+<!--          </h2>-->
+<!--          <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>-->
+<!--          <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>-->
+<!--          <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">-->
+<!--            <p>-->
+<!--              <span class="block text-2xl font-bold text-white">8K+</span>-->
+<!--              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.</span>-->
+<!--            </p>-->
 
-            <p>
-              <span class="block text-2xl font-bold text-white">25K+</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.</span>
-            </p>
+<!--            <p>-->
+<!--              <span class="block text-2xl font-bold text-white">25K+</span>-->
+<!--              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.</span>-->
+<!--            </p>-->
 
-            <p>
-              <span class="block text-2xl font-bold text-white">98%</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.</span>
-            </p>
+<!--            <p>-->
+<!--              <span class="block text-2xl font-bold text-white">98%</span>-->
+<!--              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.</span>-->
+<!--            </p>-->
 
-            <p>
-              <span class="block text-2xl font-bold text-white">12M+</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.</span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+<!--            <p>-->
+<!--              <span class="block text-2xl font-bold text-white">12M+</span>-->
+<!--              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.</span>-->
+<!--            </p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
 
     <!-- CTA Section -->
     <div class="bg-white">
       <div class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          <span class="block">Ready to get started?</span>
-          <span class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Get in touch or create an account.</span>
+          <span class="block">Estas preparat?</span>
+          <span class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Contacte amb mi! </span>
+          <span class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">sergiturbadenas@gmail.com</span>
         </h2>
         <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-          <a href="#" class="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-            Learn more
+          <a href="https://github.com/sponsors/acacha" class="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 stroke-current text-red-600 " viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+            </svg>
+            Sponsor Me
           </a>
-          <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
-            Get started
+          <a href="https://youtube.acacha.org" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
+            <img class="h-7 w-8 mr-3" src="/img/logos/youtube_play.svg" alt="Canal Youtube acacha_dev">Canal de Youtube
           </a>
         </div>
       </div>
@@ -624,60 +646,60 @@ import HelloWorld from './components/HelloWorld.vue'
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Solutions
+                Solucions
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li>
                   <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Marketing
+                    Aplicacions gestió educativa
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Analytics
+                  <a href="https://acacha.org" class="text-base text-gray-500 hover:text-gray-900">
+                    Acacha wiki
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Commerce
+                  <a href="https://github.com/acacha" class="text-base text-gray-500 hover:text-gray-900">
+                    Laravel AdminLTE
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Insights
+                  <a href="https://github.com/acacha" class="text-base text-gray-500 hover:text-gray-900">
+                    Codi font
                   </a>
                 </li>
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Support
+                Formació
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Pricing
+                  <a href="https://github.com/acacha" class="text-base text-gray-500 hover:text-gray-900">
+                    Canal Youtube
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://medium.com/@sergiturbadenas" class="text-base text-gray-500 hover:text-gray-900">
+                    Blog
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/acacha/lpi" class="text-base text-gray-500 hover:text-gray-900">
+                    LPI
                   </a>
                 </li>
 
                 <li>
                   <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Documentation
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Guides
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    API Status
+                    Discord
                   </a>
                 </li>
               </ul>
@@ -686,30 +708,18 @@ import HelloWorld from './components/HelloWorld.vue'
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Company
+                Alter Egos
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    About
+                  <a href="https://instagram.com/acacha_worlds" target="_blank" class="text-base text-gray-500 hover:text-gray-900">
+                    Acacha Worlds
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Blog
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Jobs
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Press
+                  <a href="https://www.facebook.com/sergi.tur" class="text-base text-gray-500 hover:text-gray-900">
+                    Facebook Personal
                   </a>
                 </li>
 
@@ -731,34 +741,34 @@ import HelloWorld from './components/HelloWorld.vue'
                   </a>
                 </li>
 
-                <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Privacy
-                  </a>
-                </li>
+<!--                <li>-->
+<!--                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">-->
+<!--                    Privacy-->
+<!--                  </a>-->
+<!--                </li>-->
 
-                <li>
-                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                    Terms
-                  </a>
-                </li>
+<!--                <li>-->
+<!--                  <a href="#" class="text-base text-gray-500 hover:text-gray-900">-->
+<!--                    Terms-->
+<!--                  </a>-->
+<!--                </li>-->
               </ul>
             </div>
           </div>
         </div>
         <div class="mt-12 xl:mt-0">
           <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-            Subscribe to our newsletter
+            Apunta't a la meva newsletter
           </h3>
           <p class="mt-4 text-base text-gray-500">
-            The latest news, articles, and resources, sent to your inbox weekly.
+            De tant en tant t'enviaré informació que pot ser del teu interès. Et pots donar de baixa en qualsevol moment.
           </p>
           <form class="mt-4 sm:flex sm:max-w-md">
-            <label for="email-address" class="sr-only">Email address</label>
-            <input type="email" name="email-address" id="email-address" autocomplete="email" required class="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400" placeholder="Enter your email">
+            <label for="email-address" class="sr-only">Email</label>
+            <input type="email" name="email-address" id="email-address" autocomplete="email" required class="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400" placeholder="Email">
             <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button type="submit" class="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-                Subscribe
+                Apunta'm
               </button>
             </div>
           </form>
@@ -811,12 +821,4 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
